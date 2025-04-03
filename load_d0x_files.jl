@@ -85,7 +85,7 @@ function load_d0x_files(file_path::AbstractString; sampling_rate::Float64=100.0)
 end
 
 # Example usage:
-file_path = "C:/Users/danie/Desktop/julia-EPG/8hr_0zt_2022-10-01-ch4.D01"
+file_path = "/recs/8hr_0zt_2022-10-01-ch4.D01"
 df = load_d0x_files(file_path)
 println("DataFrame has $(nrow(df)) rows.")
 println("First 10 rows:")

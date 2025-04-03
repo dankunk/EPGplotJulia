@@ -157,7 +157,7 @@ end
 # -------------------------------------------------------------------------
 # EXAMPLE USAGE (Manually call in REPL or remove comments below):
 # -------------------------------------------------------------------------
-# file_path = "C:/Users/danie/Desktop/julia-EPG/8hr_0zt_2022-10-01-ch4.D01"
+# file_path = "/recs/8hr_0zt_2022-10-01-ch4.D01"
 # df = load_d0x_files(file_path; sampling_rate=100.0)
 # plt_full = plot_signal(df, plot_type=:line, title="Full EPG Signal")
 # display(plt_full)
